@@ -20,7 +20,7 @@
         "grunt": "0.4.5",
         "grunt-mocha-test": "0.8.1",
         "chai": "^1.9.0",
-        "grunt-express-server": "^0.4.13",
+        "supertest": "*",
         "chai-http": "^0.4.0"
     }
 } 

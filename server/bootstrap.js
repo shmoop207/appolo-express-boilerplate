@@ -8,7 +8,7 @@ module.exports = appolo.Controller.define({
         inject:['logger','env']
     },
 
-    run:function(){
-
+    run:function(next){
+        next();
     }
 })
