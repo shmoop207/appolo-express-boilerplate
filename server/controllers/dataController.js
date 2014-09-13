@@ -8,7 +8,6 @@ module.exports = appolo.Controller.define({
         routes:[{
             path: '/data/',
             method: 'get',
-            controller: 'data',
             action: 'getData'
         }]
     },
